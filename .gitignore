@@ -1,0 +1,32 @@
+# JavaScript dependencies and build output
+node_modules/
+/dist/
+*.tsbuildinfo
+
+# Release packages, local backups, and previews
+/artifacts/
+
+# Python bytecode, environments, and test caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs and operating system files
+*.log
+npm-debug.log*
+.DS_Store
+._*
+Thumbs.db
